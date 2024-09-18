@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 id="h1">STUDENT FORM</h1>
+<div class="box">
+<form id="stdform">
+  <table id="details">
+    <tbody>
+<tr>
+<td>
+  <label for="name">Name</label>
+</td>
+<td>
+<input name="name" id="int1" required>
+</td>
+</tr>
+<tr>
+<td>
+<label for="age">Age</label></td>
+<td><input type="number" name="age" id="int2" required></td>
+</tr>
+<tr>
+<td>
+<label for="gen">Gender</label></td>
+<td>
+<input type="radio" name="gen" value="Male" id="int3" required>Male
+<input type="radio" name="gen" value="Female" id="int4" required>Female</td></tr>
+</tr>
+
+
+<td><label for="">Cource</label></td>
+<td><select name="script" id="int5" required>
+<option value="html"></option>
+<option value="html">HTML</option>
+<option value="css">CSS</option>
+<option value="javascript">JAVASCRIPT</option>
+</select></td>
+</tr>
+
+  <tr>
+<td>
+<label for="email">Email</label></td>
+<td>
+<input type="email" name="email" id="int6" required>
+</td>
+</tr>
+
+    </tbody>
+
+  </table>
+
+  <table>   
+    <tr>
+      <td>
+<button id="but" type="submit" onclick="create(event)">Submit</button></td></tr>
+  </table>
+</form>
+  </div>
+  <div class="box2">
+    <table>
+      <thead>
+        <tr >
+          
+          <th>Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Cource</th>
+          <th>Email</th>
+          <th>Action</th>
+     
+        </tr>
+      </thead>
+<tr  id="row" >
+
+
+</tr>
+
+
+      
+    </table>
+  </form>
+  </div>
+
+  <script src="java.js"></script>
+</body>
+</html>
